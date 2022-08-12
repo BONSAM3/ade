@@ -1,0 +1,18 @@
+.about {
+  padding: 0 3rem;
+}
+.about-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 4rem 0;
+}
+.about-img {
+  width: 100%;
+}
+.me {
+  margin: 2rem 0;
+}
+.meet {
+  margin: 2rem 0;
+}

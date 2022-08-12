@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.main-body {
+  padding: 1rem 3rem;
+}
+.nav-logo {
+  height: 170px;
+}
+.links a {
+  color: #000;
+}
+.links a:hover {
+  color: rgb(216, 204, 137);
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 2rem;
+}
+.header-flex a {
+  color: #000;
+}
+.header-flex a:hover {
+  transform: translateY(20%);
+  transition-duration: 0.5s;
+}
+
+i {
+  font-size: 1.5rem;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.header-flex {
+  display: flex;
+  gap: 1rem;
+}
+.nav-toggle {
+  display: none;
+}
+.rods-img {
+  width: 100%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1rem;
+}
+.rods-img:hover {
+  color: rgba(0, 0, 0, 0.3);
+}
+footer {
+  padding: 2rem 3rem;
+}
+.horizon {
+  margin: 1rem 0;
+}
